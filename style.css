@@ -18,7 +18,7 @@ body, html {
   .desktop .div {
     background-color: #ffe9f1;
     overflow: hidden;
-    width: 1440px;
+    width: 100%;
     height: 2315px;
     position: relative;
   }
@@ -26,7 +26,7 @@ body, html {
   .desktop .bodyy {
     background-color: #ffe9f1;
     overflow: hidden;
-    width: 1440px;
+    width: 100%;
     /* height: 2315px; */
     position: relative;
   }
@@ -55,14 +55,17 @@ body, html {
 
   .hubungi{
     display: flex;
+    justify-content: center;
     margin-top: 120px;
     position: relative;
     margin-bottom: 300px;
+    width: 100%;
   }
 
   .hubungi .image{
-    width: 1468px;
-height: 892px;
+    
+    width: 100%;
+height: 100%;
   }
   
   .desktop .text-wrapper {
@@ -133,7 +136,7 @@ height: 892px;
   
   .desktop .rectangle {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 471px;
     top: 6069px;
     left: 0;
@@ -141,7 +144,7 @@ height: 892px;
   }
   
   .desktop .overlap-group {
-    width: 1440px;
+    width: 100%;
     height: 954px;
     top: 1042px;
     position: absolute;
@@ -150,7 +153,7 @@ height: 892px;
   
   .desktop .rectangle-2 {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 934px;
     top: 20px;
     left: 0;
@@ -180,8 +183,10 @@ height: 892px;
   }
   
   .desktop .selamat-datang-di {
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 1266px;
+    width: 100%;
     top: 146px;
     font-family: 'Handlee';
     font-weight: 400;
@@ -202,14 +207,17 @@ height: 892px;
   }
   
   .desktop .frame-3 {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 35px;
     position: absolute;
     top: 202px;
-    left: 58px;
-  }
-  
+    left: 58px; /* Margin from the left */
+    width: calc(100% - 116px); /* Adjust for equal spacing on both sides */
+   
+}
+
   .desktop .group {
     position: relative;
     width: 602px;
