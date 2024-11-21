@@ -63,9 +63,8 @@ body, html {
   }
 
   .hubungi .image{
-    
     width: 100%;
-height: 100%;
+ height: 100%;
   }
   
   .desktop .text-wrapper {
@@ -680,4 +679,58 @@ line-height: normal;
   .desktop .frame-3 .group .overlap-group-2 .produk-kesehatan-dan{
     font-size: 25px;
   }
+
+  .footer2 {
+    height: auto; /* Biarkan tinggi menyesuaikan */
+    gap: 20px; /* Kurangi jarak antar elemen */
+    padding: 20px; /* Sesuaikan padding */
+  }
+
+  .footer2 .frame-5 {
+    gap: 10px; /* Kurangi jarak antar elemen */
+  }
+
+  .footer2 .image-2 {
+    width: 150px; /* Perkecil logo */
+    height: auto; /* Pertahankan proporsi */
+  }
+
+  .footer2 .text-wrapper-6,
+  .footer2 .text-wrapper-7,
+  .footer2 .text-wrapper-8 {
+    font-size: 14px; /* Kurangi ukuran font */
+    text-align: center; /* Ratakan teks ke tengah */
+  }
+
+  .hubungi img {
+    max-width: 95%; /* Batasi lebar gambar menjadi 90% */
+    height: auto; /* Pertahankan proporsi */
+  }
+
+  .footer {
+
+    height: auto; /* Biarkan tinggi menyesuaikan */
+    gap: 20px; /* Kurangi jarak antar elemen */
+    padding: 20px; /* Sesuaikan padding */
+  }
+
+  .footer .frame-5 {
+    gap: 10px; /* Kurangi jarak antar elemen */
+  }
+
+  .footer .image-2 {
+    width: 150px; /* Perkecil logo */
+    height: auto; /* Pertahankan proporsi */
+  }
+
+  .footer .text-wrapper-6,
+  .footer .text-wrapper-7,
+  .footer .text-wrapper-8 {
+    font-size: 14px; /* Kurangi ukuran font */
+    text-align: center; /* Ratakan teks ke tengah */
+  }
+
+
 }
+
+
